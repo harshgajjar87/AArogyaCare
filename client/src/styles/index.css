@@ -1,4 +1,4 @@
-/* Modern Theme with Professional Styling and Animations */
+/* 🌐 Modern Theme with Professional Styling and Animations */
 
 :root {
   --primary-color: #175c98;
@@ -10,9 +10,9 @@
   --light-color: #f8f9fa;
   --dark-color: #343a40;
   --transition-speed: 0.3s;
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -29,7 +29,7 @@ body {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 
-/* Dark Mode Styles */
+/* 🌙 Dark Mode Styles */
 body.dark {
   background-color: #1a1a2e;
   color: #f1f1f1;
@@ -72,7 +72,7 @@ body.dark {
   background-color: rgba(83, 52, 131, 0.2);
 }
 
-/* Animations */
+/* ✨ Animations */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -94,7 +94,7 @@ body.dark {
   100% { background-position: 1000px 0; }
 }
 
-/* Utility Classes */
+/* 🧰 Utility Classes */
 .fade-in {
   animation: fadeIn var(--transition-speed) ease-in-out;
 }
@@ -111,7 +111,7 @@ body.dark {
   transform: scale(1.05);
 }
 
-/* Card Styles */
+/* 🃏 Card Styles */
 .card {
   border-radius: 10px;
   box-shadow: var(--shadow-md);
@@ -133,7 +133,7 @@ body.dark {
   padding: 1rem 1.25rem;
 }
 
-/* Button Styles */
+/* 🧭 Button Styles */
 .btn {
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -179,20 +179,22 @@ body.dark {
   color: white;
 }
 
-/* Form Styles */
-.form-control, .form-select {
+/* 📝 Form Styles */
+.form-control, 
+.form-select {
   border-radius: 5px;
   border: 1px solid #ced4da;
   padding: 0.75rem 1rem;
   transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
 }
 
-.form-control:focus, .form-select:focus {
+.form-control:focus, 
+.form-select:focus {
   border-color: var(--primary-color);
   box-shadow: 0 0 0 0.25rem rgba(74, 108, 247, 0.25);
 }
 
-/* Table Styles */
+/* 📊 Table Styles */
 .table {
   border-radius: 8px;
   overflow: hidden;
@@ -214,7 +216,8 @@ body.dark {
   background-color: rgba(74, 108, 247, 0.05);
 }
 
-/* Alert Styles */n.alert {
+/* 🚨 Alert Styles */
+.alert {
   border-radius: 8px;
   border: none;
   padding: 1rem 1.25rem;
@@ -227,7 +230,8 @@ body.dark {
   color: var(--primary-color);
 }
 
-/* Loading Animation */n.loading-spinner {
+/* ⏳ Loading Animation */
+.loading-spinner {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -241,7 +245,8 @@ body.dark {
   to { transform: rotate(360deg); }
 }
 
-/* Responsive Container */n.container {
+/* 🧱 Responsive Container */
+.container {
   padding: 0 15px;
   margin: 0 auto;
   max-width: 1200px;
@@ -253,7 +258,8 @@ body.dark {
   }
 }
 
-/* Text Utilities */n.text-gradient {
+/* 📝 Text Utilities */
+.text-gradient {
   background: linear-gradient(45deg, var(--primary-color), #6a11cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -264,13 +270,15 @@ body.dark {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Divider */n.divider {
+/* ── Divider ── */
+.divider {
   height: 1px;
   background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
   margin: 1.5rem 0;
 }
 
-/* Section Padding */n.section-padding {
+/* 📌 Section Padding */
+.section-padding {
   padding: 4rem 0;
 }
 
